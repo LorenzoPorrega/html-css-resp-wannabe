@@ -144,6 +144,10 @@ img {
     .row , .row *{
         max-width: 100%;
     }
+        
+    .why-us{
+        margin-bottom: 0px;
+    }
 }
 
 @media screen and (min-width: 769px) {
@@ -191,9 +195,5 @@ img {
 
     .lessons .col img , .steps .col img , .why-us .col .img{
         margin-bottom: 5vw;
-    }
-
-    .why-us{
-        margin-bottom: 0px;
     }
 }
