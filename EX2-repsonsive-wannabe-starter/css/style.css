@@ -165,5 +165,35 @@ img {
 }
 
 @media screen and (max-width: 480px) {
-    
+    main{
+        width: 100vw;
+    }
+
+    section{
+        width: 100vw;
+    }
+
+    .container{
+        width: 100vw;
+    }
+
+    .row , .row *{
+        width: 100%;
+        flex-flow: column;
+        align-items: center;
+
+    }
+
+    .lessons .col , .steps .col , .why-us .col{
+        width: 100%;
+        margin: 10vw 0px;
+    }
+
+    .lessons .col img , .steps .col img , .why-us .col .img{
+        margin-bottom: 5vw;
+    }
+
+    .why-us{
+        margin-bottom: 0px;
+    }
 }
